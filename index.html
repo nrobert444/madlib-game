@@ -9,40 +9,43 @@
 </head>
 
 <body>
-    <div class="container">
-        <label id="adj-1"> adjective
-            <input id="adj-1">
-        </label>
-        <label id="noun-1"> noun thing
-            <input id="noun-1">
-        </label>
-        <label id="adj-2"> adjective feeling
-            <input id="adj-2">
-        </label>
-        <label id="noun-2"> noun item
-            <input id="noun-2">
-        </label>
-        <label id="noun-3"> noun thing
-            <input id="noun-3">
-        </label>
-        <label id="verb-1"> verb action
-            <input id="verb-1">
-        </label>
-        <label id="noun-4"> noun thing
-            <input id="noun-4">
-        </label>
-        <label id="adj-3"> adjective
-            <input id="adj-3">
-        </label>
-        <label id="verb-2"> verb action
-            <input id="verb-2">
-        </label>
-        <button id="mad-button">Madlib</button>
-        <p class="hidden-story">
-            It was a <span id="adj-1"></span> night and my favorite show <span id="noun-1"></span> was on TV. I was feeling <span id="adj-2"></span> as I watched so I got up to get a <span id="noun-2"></span>. I heard a <span id="noun-3"></span> and went to see what it was. I <span id="verb-1"></span> to the window and saw a <span id="noun-4"></span> outside. It was the most <span id="adj-3"></span> i'd ever seen and I immediately <span id="verb-2"></span>.
-        </p>
-    </div>
-    
+    <header>
+        <h1>First Day of School Madness</h1>
+        <h2><em>Rid yourself of first-day jitters with this interactive story</em></h2>
+    </header> 
+
+    <article class = "instructions">
+        <h2>Instructions</h2>
+        <p>Fill in the blanks with the indicated types of words and let the hilarity ensue!  Be creative with your words.  The <strong>bizzare</strong> and <strong>unordinary</strong> are <em>essential</em> to ensure you have a fun and successful first day.</p>
+    </article>  
+    <article>
+        <fieldset>
+            <legend class = "legend">Your Words</legend>
+            <label>Adjective: <br> 
+                <input id = "adj-1"/></label> <br><br>
+            <label>Place: <br> 
+                <input id = "noun-1"/></label> <br><br>
+            <label>Another adjective:<br> 
+                <input id = "adj-2"/></label> <br><br>
+            <label>Feeling (adj): <br> 
+                <input id = "noun-2"/></label> <br><br>
+            <label>Object (plural)<br> 
+                <input id = "noun-3"/></label> <br><br>
+            <label>Number:<br> 
+                <input id = "verb-1"/></label> <br><br>
+            <label>Animal (plural) <br> 
+                <input id = "noun-4"/></label> <br><br>
+            <label>Verb (ending in -ing):<br> 
+                <input id = "adj-3"/></label> <br><br>
+            <label>Object (plural)<br> 
+                <input id = "verb-2"/></label> <br><br>
+        </fieldset>
+    </article>
+    <button id="mad-button">Madlib</button>
+    <p id="hidden-story">
+        It was a <span id= "adj1"></span> night and my favorite show <span id= "noun1"></span> was on TV. I was feeling <span id= "adj2"></span> as I watched so I got up to get a <span id= "noun2"></span>. I heard a <span id= "noun3"></span> and went to see what it was. I <span id= "verb1"></span> to the window and saw a <span id= "noun4"></span> outside. It was the most <span id= "adj3"></span> i'd ever seen and I immediately <span id= "verb2"></span>.
+    </p>
 </body>
-<script src="app.js"></script>
+<script src= "app.js"></script>
+
 </html>

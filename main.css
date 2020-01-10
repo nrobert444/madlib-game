@@ -1,3 +1,79 @@
-.hidden-story {
+#hidden-story {
     visibility: hidden;
 }
+
+
+#mad-button {
+    cursor: pointer;
+    background-color: rgb(90, 218, 128);
+    border: solid 5px darkblue;
+    padding: 20px 50px;
+}
+
+.box-all {
+    width: 155px;
+    height: 100px;
+    border: solid gold 3px;
+    border-radius: 3em;
+    padding: 40px;
+    text-align: center;
+    font-family: georgia;
+    font-size: 30px;
+
+}
+  
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+
+    font-weight: bold;
+}
+
+header{
+    background-color: lightblue;
+    color: darkblue;
+    align-content: center;
+    padding: 20px;
+    border: solid 5px darkblue;
+    margin-bottom: 50px;
+}
+
+fieldset{
+    background-color: rgb(90, 218, 128);
+    color: darkblue;
+    align-content: center;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: solid 5px darkblue;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+label{
+    border: 5px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.legend{
+    background-color: rgb(90, 218, 128);
+    border: solid 5px darkblue;
+}
+.instructions{
+    border: solid 5px darkblue;
+    background-color: rgb(59, 116, 167);
+    margin-bottom: 50px;
+    font-weight: normal;
+    font-size: 24px;
+
+}
+
+
+
